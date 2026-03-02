@@ -4,39 +4,46 @@
  * Tanggal      : 23/02/2026 */
 
 public class Titik {
-    /*****************ATRIBUT*****************/
+    /***************ATRIBUT***************/
     double absis;
     double ordinat;
 
-    /*****************METHOD*****************/
+    /***************METHOD***************/
     //konstruktor untuk membuat titik (0,0)
-    public Titik() {
+    Titik() {
         absis = 0;
         ordinat = 0;
     }
 
     //mengembalikan nilai absis
-    public void setAbsis(double a) {
-        absis = a;
-    }
-
-    //mengembalikan nilai ordinat
-    public void setOrdinat(double o) {
-        ordinat = o;
-    }
-
-    //mengeset absis titik dengan nilai baru x
-    public double getAbsis() {
+    double getAbsis() {
         return absis;
     }
 
-    //mengeset ordinat titik dengan nilai baru y
-    public double getOrdinat() {
+    //mengembalikan nilai ordinat
+    double getOrdinat() {
         return ordinat;
     }
 
-    //menggeser nilai absis dan ordinat titik masing-masing sejauh x dan y
-    public void printTitik() {
-        System.out.println("(" + absis + "," + ordinat + ")");
+    //mengeset absis titik dengan nilai baru x
+    void setAbsis(double x) {
+        absis = x;
     }
-} //end class Titik
+
+    //mengeset ordinat titik dengan nilai baru y
+    void setOrdinat(double y) {
+        ordinat = y;
+    }
+
+    //menggeser nilai absis dan ordinat titik masing-masing sejauh x dan y
+    void geser(double x, double y) {
+        absis = absis + x;
+        ordinat = ordinat + x; // (Catatan: Sesuai modul tertulis + x, walau seharusnya + y)
+    }
+
+    //mencetak koordinat titik
+    void printTitik() {
+        System.out.println("Titik (" + absis + "," + ordinat + ")");
+    }
+}
+//end class Titik
