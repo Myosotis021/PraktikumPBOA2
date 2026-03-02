@@ -10,5 +10,11 @@ public class MTitik {
         T2.printTitik();
         T1.setAbsis(10);
         T2.printTitik();
+        Titik T3 = new Titik();
+        Titik T4 = new Titik(3,5);
+
+        System.out.println("Jumlah Objek Titik = " + Titik.getCounterTitik());
+        System.out.println("Nilai absis T1   = " + T1.getAbsis());
+        System.out.println("Nilai ordinat T1 = " + T1.getOrdinat());
     }
 }
