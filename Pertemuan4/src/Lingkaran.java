@@ -17,10 +17,8 @@ public class Lingkaran extends BangunDatar {
 
     // Konstruktor dengan parameter
     public Lingkaran(double diameter, String warna, String border) {
-        this.jari = diameter / 2;
-        setJmlSisi(0);
-        setWarna(warna);
-        setBorder(border);
+        super(0, warna, border);
+        this.jari = diameter /2;
     }
 
     // Getter dan Setter
@@ -43,5 +41,11 @@ public class Lingkaran extends BangunDatar {
     // Fungsi untuk menghitung keliling lingkaran
     public double getKeliling() {
         return 2 * Math.PI * jari;
+    }
+
+    @Override
+    public void printInfo() {  
+        super.printInfo();
+        System.out.println("Jari-jari: " + jari);
     }
 }

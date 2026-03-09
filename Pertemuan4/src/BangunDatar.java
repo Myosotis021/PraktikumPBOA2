@@ -11,7 +11,18 @@ public class BangunDatar {
     /***************METHOD***************/
     // Konstruktor tanpa parameter
     public BangunDatar(){
+        jmlSisi = 0;
+        warna = "";
+        border = "";
     }
+
+    // Konstruktor dengan parameter
+    public BangunDatar(int jmlSisi, String warna, String border){
+        this.jmlSisi = jmlSisi;
+        this.warna = warna;
+        this.border = border;
+    }
+
     // Selektor dan Mutator
     // Selektor untuk mendapatkan nilai jumlah sisi
     public int getJmlSisi(){

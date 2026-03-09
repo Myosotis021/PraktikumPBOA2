@@ -7,16 +7,11 @@ public class Persegi extends BangunDatar {
     /*************** ATRIBUT ***************/
     private double sisi;
     /*************** METHOD ***************/
-    public Persegi() {
-        setJmlSisi(4);
-    }
     
-    // Konstruktor dengan parameter
+    // Konstruktor dengan parameter(super)
     public Persegi(double sisi, String warna, String border) {
+        super(4, warna, border);
         this.sisi = sisi;
-        setWarna(warna);
-        setBorder(border);
-        setJmlSisi(4);
     }
     
     // Getter dan Setter
@@ -43,5 +38,11 @@ public class Persegi extends BangunDatar {
     // Fungsi untuk menghitung diagonal persegi
     public double getDiagonal() {
         return sisi * Math.sqrt(2);
+    }
+
+    @Override
+    public void printInfo() {
+        super.printInfo();
+        System.out.println("Sisi: " + sisi);
     }
 }
