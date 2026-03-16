@@ -10,5 +10,6 @@ public class MTitik {
         T2.printTitik();
         T1.setAbsis(10);
         T2.printTitik();
+        System.out.println("Jumlah Objek Titik = " + Titik.getCounterTitik());
     }
 }
