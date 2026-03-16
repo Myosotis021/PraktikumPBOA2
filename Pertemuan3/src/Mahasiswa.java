@@ -1,3 +1,9 @@
+/*
+ * File     : Mahasiswa.java
+ * Deskripsi : Kelas Mahasiswa untuk menyimpan informasi tentang mahasiswa
+ * Pembuat  : Ridho Tri Saputra-24060124130122
+ * Tanggal   : 2024-06-01
+ */
 public class Mahasiswa {
     //Atribut
     private String nama;

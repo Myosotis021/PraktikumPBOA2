@@ -1,3 +1,9 @@
+/*
+ * File     : Kendaraan.java
+ * Deskripsi : Kelas Kendaraan untuk menyimpan informasi tentang kendaraan
+ * Pembuat  : Ridho Tri Saputra-24060124130122
+ * Tanggal   : 2024-06-01
+ */
 public class Kendaraan {
     //Atribut
     private String NoPlat, Jenis;

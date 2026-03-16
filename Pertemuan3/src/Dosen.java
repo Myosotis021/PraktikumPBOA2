@@ -1,3 +1,9 @@
+/*
+ * File     : Dosen.java
+ * Deskripsi : Kelas Dosen untuk menyimpan informasi tentang dosen wali mahasiswa
+ * Pembuat  : Ridho Tri Saputra-24060124130122
+ * Tanggal   : 2024-06-01
+ */
 public class Dosen {
     //Atribut
     private String nip,nama,prodi;
