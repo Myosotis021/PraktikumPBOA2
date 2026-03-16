@@ -2,7 +2,7 @@
  * File     : Matakuliah.java
  * Deskripsi : Kelas Matakuliah untuk menyimpan informasi tentang mata kuliah
  * Pembuat  : Ridho Tri Saputra-24060124130122
- * Tanggal   : 2024-06-01
+ * Tanggal   : 02-03-2026
  */
 public class Matakuliah {
     //Atribut

@@ -2,7 +2,7 @@
  * File     : MMahasiswa.java
  * Deskripsi : Kelas utama untuk menjalankan program mahasiswa
  * Pembuat  : Ridho Tri Saputra-24060124130122
- * Tanggal   : 2024-06-01
+ * Tanggal   : 02-03-2026
  */
 public class MMahasiswa {
     public static void main(String[] args) {

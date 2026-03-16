@@ -2,7 +2,7 @@
  * File     : Mahasiswa.java
  * Deskripsi : Kelas Mahasiswa untuk menyimpan informasi tentang mahasiswa
  * Pembuat  : Ridho Tri Saputra-24060124130122
- * Tanggal   : 2024-06-01
+ * Tanggal   : 02-03-2026
  */
 public class Mahasiswa {
     //Atribut
